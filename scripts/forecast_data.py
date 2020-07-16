@@ -1,6 +1,7 @@
+from info import token
 import github
 
-g = github.Github('fde94c65ddafe5cc420e0fb75536b189faf4065e')
+g = github.Github(token())
 repo = g.get_repo("GTIdeas2020REU/covid-19-data")
 contents = repo.get_contents("")
 
