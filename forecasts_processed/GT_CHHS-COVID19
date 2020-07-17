@@ -1,0 +1,14 @@
+    forecast_date                target target_end_date  location location_name      type  quantile    value
+0      2020-05-31  1 wk ahead cum death      2020-06-06        13            GA     point       NaN  2239.00
+1      2020-05-31  1 wk ahead cum death      2020-06-06        13            GA  quantile     0.010  1684.50
+2      2020-05-31  1 wk ahead cum death      2020-06-06        13            GA  quantile     0.025  1706.25
+3      2020-05-31  1 wk ahead cum death      2020-06-06        13            GA  quantile     0.050  1729.00
+4      2020-05-31  1 wk ahead cum death      2020-06-06        13            GA  quantile     0.100  1812.00
+..            ...                   ...             ...       ...           ...       ...       ...      ...
+379    2020-06-21  4 wk ahead cum death      2020-07-18        37            NC  quantile     0.850  3386.50
+380    2020-06-21  4 wk ahead cum death      2020-07-18        37            NC  quantile     0.900  3487.00
+381    2020-06-21  4 wk ahead cum death      2020-07-18        37            NC  quantile     0.950  3706.00
+382    2020-06-21  4 wk ahead cum death      2020-07-18        37            NC  quantile     0.975  3848.00
+383    2020-06-21  4 wk ahead cum death      2020-07-18        37            NC  quantile     0.990  3987.20
+
+[1152 rows x 8 columns]
