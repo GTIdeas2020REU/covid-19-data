@@ -1,0 +1,14 @@
+       forecast_date                 target target_end_date location        location_name   type  quantile       value
+0         2020-04-06   1 wk ahead cum death      2020-04-11        1              Alabama  point       NaN   81.133646
+1         2020-04-06   1 wk ahead cum death      2020-04-11        2               Alaska  point       NaN    7.745264
+2         2020-04-06   1 wk ahead cum death      2020-04-11        4              Arizona  point       NaN  116.780239
+3         2020-04-06   1 wk ahead cum death      2020-04-11        5             Arkansas  point       NaN   20.031753
+4         2020-04-06   1 wk ahead cum death      2020-04-11        6           California  point       NaN  672.085502
+...              ...                    ...             ...      ...                  ...    ...       ...         ...
+198451    2020-06-18  47 day ahead inc hosp      2020-08-04       78  U.S. Virgin Islands  point       NaN    0.000000
+198452    2020-06-18  47 day ahead inc hosp      2020-08-04       53           Washington  point       NaN   10.838937
+198453    2020-06-18  47 day ahead inc hosp      2020-08-04       54        West Virginia  point       NaN    1.032280
+198454    2020-06-18  47 day ahead inc hosp      2020-08-04       55            Wisconsin  point       NaN    9.838195
+198455    2020-06-18  47 day ahead inc hosp      2020-08-04       56              Wyoming  point       NaN    0.450192
+
+[3628982 rows x 8 columns]
