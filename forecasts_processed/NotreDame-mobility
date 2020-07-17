@@ -1,0 +1,14 @@
+       forecast_date                  target location location_name target_end_date      type  quantile          value
+0         2020-06-10   1 day ahead cum death       US            US      2020-06-11     point       NaN  102894.808303
+1         2020-06-10   2 day ahead cum death       US            US      2020-06-12     point       NaN  103361.841492
+2         2020-06-10   3 day ahead cum death       US            US      2020-06-13     point       NaN  103817.305546
+3         2020-06-10   4 day ahead cum death       US            US      2020-06-14     point       NaN  104261.650313
+4         2020-06-10   5 day ahead cum death       US            US      2020-06-15     point       NaN  104695.506642
+...              ...                     ...      ...           ...             ...       ...       ...            ...
+108859    2020-06-10  42 day ahead inc death       56       Wyoming      2020-07-22  quantile     0.850       0.000000
+108860    2020-06-10  42 day ahead inc death       56       Wyoming      2020-07-22  quantile     0.900       1.000000
+108861    2020-06-10  42 day ahead inc death       56       Wyoming      2020-07-22  quantile     0.950       1.000000
+108862    2020-06-10  42 day ahead inc death       56       Wyoming      2020-07-22  quantile     0.975       1.000000
+108863    2020-06-10  42 day ahead inc death       56       Wyoming      2020-07-22  quantile     0.990       2.000000
+
+[108864 rows x 8 columns]
