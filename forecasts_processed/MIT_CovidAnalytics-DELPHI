@@ -1,0 +1,14 @@
+      forecast_date                  target target_end_date location   location_name      type  quantile       value
+0        2020-04-22  42 day ahead cum death      2020-06-03       37  North Carolina     point       NaN  746.000000
+1        2020-04-22  42 day ahead cum death      2020-06-03       37  North Carolina  quantile     0.010  124.333333
+2        2020-04-22  42 day ahead cum death      2020-06-03       37  North Carolina  quantile     0.025  136.766667
+3        2020-04-22  42 day ahead cum death      2020-06-03       37  North Carolina  quantile     0.100  223.800000
+4        2020-04-22  42 day ahead cum death      2020-06-03       37  North Carolina  quantile     0.150  230.746559
+...             ...                     ...             ...      ...             ...       ...       ...         ...
+82363    2020-06-15    5 wk ahead cum death      2020-07-18       35      New Mexico  quantile     0.850  573.998225
+82364    2020-06-15    5 wk ahead cum death      2020-07-18       35      New Mexico  quantile     0.900  577.545330
+82365    2020-06-15    5 wk ahead cum death      2020-07-18       35      New Mexico  quantile     0.950  582.802673
+82366    2020-06-15    5 wk ahead cum death      2020-07-18       35      New Mexico  quantile     0.975  587.362634
+82367    2020-06-15    5 wk ahead cum death      2020-07-18       35      New Mexico  quantile     0.990  592.664575
+
+[649830 rows x 8 columns]
