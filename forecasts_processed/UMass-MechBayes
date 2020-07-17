@@ -1,0 +1,14 @@
+      quantile  value      type location                target forecast_date target_end_date
+0        0.010      6  quantile        2  1 wk ahead cum death    2020-04-26      2020-05-02
+1        0.025      7  quantile        2  1 wk ahead cum death    2020-04-26      2020-05-02
+2        0.050      7  quantile        2  1 wk ahead cum death    2020-04-26      2020-05-02
+3        0.100      9  quantile        2  1 wk ahead cum death    2020-04-26      2020-05-02
+4        0.150      9  quantile        2  1 wk ahead cum death    2020-04-26      2020-05-02
+...        ...    ...       ...      ...                   ...           ...             ...
+9979     0.850     33  quantile       56  4 wk ahead cum death    2020-06-14      2020-07-11
+9980     0.900     36  quantile       56  4 wk ahead cum death    2020-06-14      2020-07-11
+9981     0.950     40  quantile       56  4 wk ahead cum death    2020-06-14      2020-07-11
+9982     0.975     47  quantile       56  4 wk ahead cum death    2020-06-14      2020-07-11
+9983     0.990     56  quantile       56  4 wk ahead cum death    2020-06-14      2020-07-11
+
+[70752 rows x 7 columns]
