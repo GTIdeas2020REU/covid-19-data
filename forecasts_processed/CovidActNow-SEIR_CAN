@@ -1,0 +1,14 @@
+       forecast_date                 target target_end_date location location_name      type  quantile          value  Unnamed: 0
+0         2020-05-09  1 day ahead cum death      2020-05-10        1       Alabama  quantile     0.010      20.278018         NaN
+1         2020-05-09  1 day ahead cum death      2020-05-10        1       Alabama  quantile     0.025      22.469933         NaN
+2         2020-05-09  1 day ahead cum death      2020-05-10        1       Alabama  quantile     0.050      26.858428         NaN
+3         2020-05-09  1 day ahead cum death      2020-05-10        1       Alabama  quantile     0.100      34.421599         NaN
+4         2020-05-09  1 day ahead cum death      2020-05-10        1       Alabama  quantile     0.150      42.059780         NaN
+...              ...                    ...             ...      ...           ...       ...       ...            ...         ...
+109675    2020-06-14  9 day ahead cum death      2020-06-23       US           NaN  quantile     0.900  125643.000000         NaN
+109676    2020-06-14  9 day ahead cum death      2020-06-23       US           NaN  quantile     0.950  125973.000000         NaN
+109677    2020-06-14  9 day ahead cum death      2020-06-23       US           NaN  quantile     0.975  126281.000000         NaN
+109678    2020-06-14  9 day ahead cum death      2020-06-23       US           NaN  quantile     0.990  126714.000000         NaN
+109679    2020-06-14  9 day ahead cum death      2020-06-23       US           NaN     point       NaN  124459.000000         NaN
+
+[377562 rows x 9 columns]
