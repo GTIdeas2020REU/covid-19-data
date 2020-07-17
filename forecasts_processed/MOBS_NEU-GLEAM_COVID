@@ -1,0 +1,14 @@
+      forecast_date                 target target_end_date location location_name      type  quantile          value
+0        2020-04-13  1 day ahead cum death      2020-04-14       01       Alabama     point       NaN      45.824148
+1        2020-04-13  1 day ahead cum death      2020-04-14       05      Arkansas     point       NaN      25.841529
+2        2020-04-13  1 day ahead cum death      2020-04-14       04       Arizona     point       NaN     379.420523
+3        2020-04-13  1 day ahead cum death      2020-04-14       06    California     point       NaN    1152.575368
+4        2020-04-13  1 day ahead cum death      2020-04-14       08      Colorado     point       NaN     394.232158
+...             ...                    ...             ...      ...           ...       ...       ...            ...
+78331    2020-06-15   4 wk ahead cum death      2020-07-11       US            US  quantile     0.850  137451.822142
+78332    2020-06-15   4 wk ahead cum death      2020-07-11       US            US  quantile     0.900  138985.055861
+78333    2020-06-15   4 wk ahead cum death      2020-07-11       US            US  quantile     0.950  141214.842950
+78334    2020-06-15   4 wk ahead cum death      2020-07-11       US            US  quantile     0.975  142877.283955
+78335    2020-06-15   4 wk ahead cum death      2020-07-11       US            US  quantile     0.990  144600.988739
+
+[634416 rows x 8 columns]
