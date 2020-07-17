@@ -1,5 +1,7 @@
 from info import token
+
 import github
+import pandas as pd
 
 g = github.Github(token())
 repo = g.get_repo("GTIdeas2020REU/covid-19-data")
@@ -29,7 +31,19 @@ for file in csv_files:
     else:
         csv_grouped[org].append(file)
 
-print(csv_grouped)
+#print(csv_grouped)
+
+for group in csv_grouped:
+    dfs = []
+    for link in csv_grouped[group]:
+        df = pd.read_csv(link)
+        dfs.append(df)
+    result = pd.concat(dfs)
+    print(result)
+    csv = result.to_csv(org, index=False)
+    #repo.create_file("/forecasts_processed/" + group, "Create processed forecast files", csv, branch="master")
+
+    #break
 
 
 
