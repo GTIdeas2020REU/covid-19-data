@@ -1,0 +1,15 @@
+,forecast_date,target,target_end_date,location,type,quantile,value
+0,2020-06-16,1 day ahead cum death,2020-06-17,US,point,,117394
+1,2020-06-16,2 day ahead cum death,2020-06-18,US,point,,118003
+2,2020-06-16,3 day ahead cum death,2020-06-19,US,point,,118598
+3,2020-06-16,4 day ahead cum death,2020-06-20,US,point,,119180
+4,2020-06-16,5 day ahead cum death,2020-06-21,US,point,,119751
+5,2020-06-16,6 day ahead cum death,2020-06-22,US,point,,120309
+6,2020-06-16,7 day ahead cum death,2020-06-23,US,point,,120855
+7,2020-06-16,8 day ahead cum death,2020-06-24,US,point,,121390
+8,2020-06-16,9 day ahead cum death,2020-06-25,US,point,,121914
+9,2020-06-16,10 day ahead cum death,2020-06-26,US,point,,122427
+10,2020-06-16,11 day ahead cum death,2020-06-27,US,point,,122928
+11,2020-06-16,12 day ahead cum death,2020-06-28,US,point,,123420
+12,2020-06-16,13 day ahead cum death,2020-06-29,US,point,,123900
+13,2020-06-16,14 day ahead cum death,2020-06-30,US,point,,124371
