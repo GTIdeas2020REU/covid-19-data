@@ -1,0 +1,14 @@
+      Unnamed: 0 forecast_date                 target target_end_date  location location_name      type  quantile     value
+0              1    2020-05-05  1 day ahead cum death      2020-05-06        17      Illinois  quantile      0.01  2796.000
+1              2    2020-05-05  1 day ahead inc death      2020-05-06        17      Illinois  quantile      0.01    45.980
+2              3    2020-05-05  2 day ahead cum death      2020-05-07        17      Illinois  quantile      0.01  2887.930
+3              4    2020-05-05  2 day ahead inc death      2020-05-07        17      Illinois  quantile      0.01    54.990
+4              5    2020-05-05  3 day ahead cum death      2020-05-08        17      Illinois  quantile      0.01  2985.950
+...          ...           ...                    ...             ...       ...           ...       ...       ...       ...
+1819        1820    2020-05-18   3 wk ahead inc death      2020-06-06        17      Illinois     point       NaN  1037.010
+1820        1821    2020-05-18   4 wk ahead cum death      2020-06-13        17      Illinois     point       NaN  8764.075
+1821        1822    2020-05-18   4 wk ahead inc death      2020-06-13        17      Illinois     point       NaN  1076.030
+1822        1823    2020-05-18   5 wk ahead cum death      2020-06-20        17      Illinois     point       NaN  9908.140
+1823        1824    2020-05-18   5 wk ahead inc death      2020-06-20        17      Illinois     point       NaN  1144.065
+
+[5760 rows x 9 columns]
