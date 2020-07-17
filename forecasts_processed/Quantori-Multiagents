@@ -1,0 +1,14 @@
+    forecast_date                 target target_end_date  location  location_name      type  quantile  value
+0      2020-05-08  1 day ahead inc death      2020-05-09        25  Massachusetts     point       NaN    107
+1      2020-05-08  1 day ahead inc death      2020-05-09        25  Massachusetts  quantile     0.010     68
+2      2020-05-08  1 day ahead inc death      2020-05-09        25  Massachusetts  quantile     0.025     70
+3      2020-05-08  1 day ahead inc death      2020-05-09        25  Massachusetts  quantile     0.050     74
+4      2020-05-08  1 day ahead inc death      2020-05-09        25  Massachusetts  quantile     0.100     79
+..            ...                    ...             ...       ...            ...       ...       ...    ...
+163    2020-05-08   6 wk ahead inc death      2020-06-20        25  Massachusetts  quantile     0.850    315
+164    2020-05-08   6 wk ahead inc death      2020-06-20        25  Massachusetts  quantile     0.900    336
+165    2020-05-08   6 wk ahead inc death      2020-06-20        25  Massachusetts  quantile     0.950    357
+166    2020-05-08   6 wk ahead inc death      2020-06-20        25  Massachusetts  quantile     0.975    371
+167    2020-05-08   6 wk ahead inc death      2020-06-20        25  Massachusetts  quantile     0.990    384
+
+[168 rows x 8 columns]
