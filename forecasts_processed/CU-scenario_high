@@ -1,0 +1,14 @@
+       forecast_date                 target target_end_date location  location_name      type  quantile  value
+0         2020-06-14  1 day ahead cum death      2020-06-15       01        Alabama     point       NaN    808
+1         2020-06-14  1 day ahead cum death      2020-06-15       02         Alaska     point       NaN     12
+2         2020-06-14  1 day ahead cum death      2020-06-15       04        Arizona     point       NaN   1259
+3         2020-06-14  1 day ahead cum death      2020-06-15       05       Arkansas     point       NaN    186
+4         2020-06-14  1 day ahead cum death      2020-06-15       06     California     point       NaN   5271
+...              ...                    ...             ...      ...            ...       ...       ...    ...
+113563    2020-06-14   9 day ahead inc hosp      2020-06-23       53     Washington  quantile      0.99     51
+113564    2020-06-14   9 day ahead inc hosp      2020-06-23       54  West Virginia  quantile      0.99      5
+113565    2020-06-14   9 day ahead inc hosp      2020-06-23       55      Wisconsin  quantile      0.99     52
+113566    2020-06-14   9 day ahead inc hosp      2020-06-23       56        Wyoming  quantile      0.99      3
+113567    2020-06-14   9 day ahead inc hosp      2020-06-23       US             US  quantile      0.99   3618
+
+[113568 rows x 8 columns]
