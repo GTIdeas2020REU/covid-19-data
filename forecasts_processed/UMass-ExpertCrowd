@@ -1,0 +1,14 @@
+   forecast_date                target target_end_date location      type  quantile     value
+0     2020-04-13  3 wk ahead cum death      2020-05-02       US  quantile     0.010   26250.0
+1     2020-04-13  3 wk ahead cum death      2020-05-02       US  quantile     0.025   29250.0
+2     2020-04-13  3 wk ahead cum death      2020-05-02       US  quantile     0.050   31750.0
+3     2020-04-13  3 wk ahead cum death      2020-05-02       US  quantile     0.100   34250.0
+4     2020-04-13  3 wk ahead cum death      2020-05-02       US  quantile     0.150   36250.0
+..           ...                   ...             ...      ...       ...       ...       ...
+19    2020-04-20  3 wk ahead cum death      2020-05-09       US  quantile     0.850  102250.0
+20    2020-04-20  3 wk ahead cum death      2020-05-09       US  quantile     0.900  127750.0
+21    2020-04-20  3 wk ahead cum death      2020-05-09       US  quantile     0.950  152750.0
+22    2020-04-20  3 wk ahead cum death      2020-05-09       US  quantile     0.975  170250.0
+23    2020-04-20  3 wk ahead cum death      2020-05-09       US  quantile     0.990  189750.0
+
+[72 rows x 7 columns]
