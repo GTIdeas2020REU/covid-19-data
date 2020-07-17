@@ -1,0 +1,14 @@
+       forecast_date                 target target_end_date location      type  quantile         value
+0         2020-04-24  1 day ahead inc death      2020-04-25       US  quantile     0.010    416.520000
+1         2020-04-24  1 day ahead inc death      2020-04-25       US  quantile     0.025    473.600000
+2         2020-04-24  1 day ahead inc death      2020-04-25       US  quantile     0.050    521.600000
+3         2020-04-24  1 day ahead inc death      2020-04-25       US  quantile     0.100    594.200000
+4         2020-04-24  1 day ahead inc death      2020-04-25       US  quantile     0.150    693.800000
+...              ...                    ...             ...      ...       ...       ...           ...
+116635    2020-06-14  27 day ahead inc hosp      2020-07-11       US  quantile     0.900  12945.200000
+116636    2020-06-14  27 day ahead inc hosp      2020-07-11       US  quantile     0.950  13365.550000
+116637    2020-06-14  27 day ahead inc hosp      2020-07-11       US  quantile     0.975  13822.725000
+116638    2020-06-14  27 day ahead inc hosp      2020-07-11       US  quantile     0.990  14458.840000
+116639    2020-06-14  27 day ahead inc hosp      2020-07-11       US     point       NaN  10676.143333
+
+[523320 rows x 7 columns]
