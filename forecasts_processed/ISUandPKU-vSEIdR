@@ -1,0 +1,14 @@
+        location forecast_date target_end_date                   target      type  quantile      value
+0              2    2020-05-25      2020-05-26    1 day ahead inc death     point       NaN   0.000000
+1              2    2020-05-25      2020-05-27    2 day ahead inc death     point       NaN   0.000000
+2              2    2020-05-25      2020-05-28    3 day ahead inc death     point       NaN   0.000000
+3              2    2020-05-25      2020-05-29    4 day ahead inc death     point       NaN   0.000000
+4              2    2020-05-25      2020-05-30    5 day ahead inc death     point       NaN   0.000000
+...          ...           ...             ...                      ...       ...       ...        ...
+159115        56    2020-06-15      2020-10-19  126 day ahead inc death  quantile      0.99  32.043900
+159116        56    2020-06-15      2020-10-20  127 day ahead inc death  quantile      0.99  31.926083
+159117        56    2020-06-15      2020-10-21  128 day ahead inc death  quantile      0.99  31.770112
+159118        56    2020-06-15      2020-10-22  129 day ahead inc death  quantile      0.99  31.577357
+159119        56    2020-06-15      2020-10-23  130 day ahead inc death  quantile      0.99  31.024526
+
+[636480 rows x 7 columns]
