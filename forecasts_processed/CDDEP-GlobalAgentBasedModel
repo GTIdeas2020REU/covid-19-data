@@ -1,0 +1,49 @@
+    Unnamed: 0 forecast_date                 target target_end_date  location         location_name      type  quantile        value
+0            0    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia     point       NaN   545.857143
+1            1    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.010   369.600000
+2            2    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.025   373.500000
+3            3    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.050   380.000000
+4            4    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.100   394.200000
+5            5    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.150   409.800000
+6            6    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.200   416.400000
+7            7    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.250   431.750000
+8            8    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.300   462.300000
+9            9    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.350   487.350000
+10          10    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.400   513.200000
+11          11    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.450   543.100000
+12          12    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.500   552.000000
+13          13    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.550   555.500000
+14          14    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.600   562.000000
+15          15    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.650   567.150000
+16          16    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.700   580.400000
+17          17    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.750   641.500000
+18          18    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.800   673.800000
+19          19    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.850   689.650000
+20          20    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.900   724.100000
+21          21    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.950   745.250000
+22          22    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.975   750.125000
+23          23    2020-06-01  1 day ahead cum death      2020-06-02        11  District of Columbia  quantile     0.990   753.050000
+24           0    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland     point       NaN  2519.928571
+25           1    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.010  1831.220000
+26           2    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.025  1869.050000
+27           3    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.050  1932.100000
+28           4    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.100  2001.800000
+29           5    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.150  2005.700000
+30           6    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.200  2013.800000
+31           7    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.250  2054.750000
+32           8    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.300  2147.700000
+33           9    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.350  2239.000000
+34          10    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.400  2321.400000
+35          11    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.450  2384.450000
+36          12    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.500  2457.500000
+37          13    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.550  2518.250000
+38          14    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.600  2528.000000
+39          15    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.650  2670.950000
+40          16    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.700  2852.700000
+41          17    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.750  2922.250000
+42          18    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.800  3017.400000
+43          19    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.850  3127.800000
+44          20    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.900  3229.200000
+45          21    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.950  3302.250000
+46          22    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.975  3326.625000
+47          23    2020-06-01  1 day ahead cum death      2020-06-02        24              Maryland  quantile     0.990  3341.250000
