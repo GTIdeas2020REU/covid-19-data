@@ -1,2 +1,3 @@
 venv
 scripts/info.py
+scripts/__pycache__

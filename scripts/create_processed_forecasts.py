@@ -2,6 +2,7 @@ from info import token
 
 import github
 import pandas as pd
+from io import StringIO
 
 g = github.Github(token())
 repo = g.get_repo("GTIdeas2020REU/covid-19-data")
@@ -11,10 +12,8 @@ csv_files = []
 while contents:
     file_content = contents.pop(0)
     if file_content.type == "dir":
-        #print(file_content.name)
         contents.extend(repo.get_contents(file_content.path))
     else:
-        #print(' ')
         raw_url = file_content.download_url
         if '.csv' in raw_url:
             csv_files.append(raw_url)
@@ -24,6 +23,8 @@ csv_grouped = {}
 
 for file in csv_files:
     split_file = file.split('/')
+    if 'forecasts' not in split_file:
+        continue
     index = split_file.index('forecasts')
     org = split_file[index+1]
     if org not in csv_grouped:
@@ -34,16 +35,20 @@ for file in csv_files:
 #print(csv_grouped)
 
 for group in csv_grouped:
+    groups = ['IHME-CurveFit', 'LANL-GrowthRate']
+    #print(group)
+    if group in groups:
+        continue
+
     dfs = []
     for link in csv_grouped[group]:
         df = pd.read_csv(link)
+        df = df.loc[df['type'] == 'point']
         dfs.append(df)
     result = pd.concat(dfs)
-    print(result)
-    csv = result.to_csv(org, index=False)
-    #repo.create_file("/forecasts_processed/" + group, "Create processed forecast files", csv, branch="master")
 
-    #break
-
+    output = StringIO()
+    result.to_csv(output)
+    repo.create_file("forecasts_processed/" + group + '.csv', "Create processed forecast files", output.getvalue(), branch="master")
 
 
