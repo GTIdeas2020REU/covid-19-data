@@ -37,7 +37,7 @@ for file in csv_files:
 for group in csv_grouped:
     groups = ['IHME-CurveFit', 'LANL-GrowthRate']
     #print(group)
-    if group in groups:
+    if group not in groups:
         continue
 
     dfs = []
@@ -49,6 +49,12 @@ for group in csv_grouped:
 
     output = StringIO()
     result.to_csv(output)
-    repo.create_file("forecasts_processed/" + group + '.csv', "Create processed forecast files", output.getvalue(), branch="master")
+
+    if group in groups:
+        f = open(group + '.csv', 'w')
+        f.write(output.getvalue())
+        f.close()
+    else:
+        repo.create_file("forecasts_processed/" + group + '.csv', "Create processed forecast files", output.getvalue(), branch="master")
 
 
