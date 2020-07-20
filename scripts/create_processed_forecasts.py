@@ -35,7 +35,7 @@ for file in csv_files:
 #print(csv_grouped)
 
 for group in csv_grouped:
-    groups = ['IHME-CurveFit', 'LANL-GrowthRate']
+    groups = ['IHME-CurveFit', 'LANL-GrowthRate', 'YYG-ParamSearch']
     #print(group)
     if group not in groups:
         continue
