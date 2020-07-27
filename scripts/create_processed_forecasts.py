@@ -37,24 +37,30 @@ for file in csv_files:
 for group in csv_grouped:
     groups = ['IHME-CurveFit', 'LANL-GrowthRate', 'YYG-ParamSearch']
     #print(group)
-    if group not in groups:
-        continue
+    '''if group not in groups:
+        continue'''
 
     dfs = []
     for link in csv_grouped[group]:
         df = pd.read_csv(link)
-        df = df.loc[df['type'] == 'point']
+        #df = df.loc[df['type'] == 'point']
         dfs.append(df)
     result = pd.concat(dfs)
 
     output = StringIO()
     result.to_csv(output)
+    
+    f = open(group + '.csv', 'w')
+    f.write(output.getvalue())
+    f.close()
 
+    '''
     if group in groups:
         f = open(group + '.csv', 'w')
         f.write(output.getvalue())
         f.close()
     else:
         repo.create_file("forecasts_processed/" + group + '.csv', "Create processed forecast files", output.getvalue(), branch="master")
+    '''
 
 
