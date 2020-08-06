@@ -8,8 +8,8 @@ sys.path.append("../")
 
 client = pymongo.MongoClient(getClient())
 mydb = client['covid19-forecast']
-mycol = mydb['point_forecasts']
-files = glob.glob("../forecasts_processed/point/*.csv")
+mycol = mydb['all_forecasts']
+files = glob.glob("../forecasts_processed/all/*.csv")
 
 models_list = []
 for file in files:
@@ -24,7 +24,7 @@ for file in files:
     df = df.drop_duplicates(subset=['target_end_date', 'location'], keep='last')
     df = df.loc[(df['target'].str.contains("wk"))]
 
-    df.astype({'value': 'float'}).dtypes
+    df.astype({'value': 'float', 'quantile': 'float'}).dtypes
 
     df = df.groupby('location')
 
@@ -38,13 +38,16 @@ for file in files:
         target_dates = list(group['target_end_date'].array)
         values = list(group['value'].array)
         values = [float(value) for value in values]
+        types = list(group['type'].array)
+        quantiles = list(group['quantile'].array)
+        quantiles = [float(quantile) for quantile in quantiles]
 
-        # For now only inserting documents with point forecasts
+        # Inserting documents
         model_dict = {'model': model_name, 
                   'location': location, 
                   'target': targets,
-                  #'type': types,
-                  #'quantile': quantiles,
+                  'type': types,
+                  'quantile': quantiles,
                   'forecast_date': forecast_date,
                   'target_end_date': target_dates,
                   'value': values}
@@ -52,4 +55,3 @@ for file in files:
         x = mycol.insert_one(model_dict)
 
     print(model_name)
-    
