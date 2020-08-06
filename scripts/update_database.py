@@ -24,25 +24,24 @@ for file in files:
     df = df.drop_duplicates(subset=['target_end_date', 'location'], keep='last')
     df = df.loc[(df['target'].str.contains("wk"))]
 
-    #df.astype({'quantile': 'float', 'value': 'float'}).dtypes
     df.astype({'value': 'float'}).dtypes
 
-    locations = list(df['location'].array)
-    locations = [int(loc) for loc in locations if loc != 'US']
-    targets = list(df['target'].array)
-    #types = list(df['type'].array)
-    #quantiles = list(df['quantile'].array)
-    #quantiles = [float(quantile) for quantile in quantiles]
-    #forecast_date = df['forecast_date'].array[0]
-    forecast_date = list(df['forecast_date'].array)
-    target_dates = list(df['target_end_date'].array)
-    values = list(df['value'].array)
-    values = [float(value) for value in values]
-    print(model_name)
+    df = df.groupby('location')
 
-    # For now only inserting documents with point forecasts
-    model_dict = {'model': model_name, 
-                  'location': locations, 
+    for name, group in df:
+        if name != 'US':
+            location = int(name) 
+        else:
+            location = name
+        targets = list(group['target'].array)
+        forecast_date = list(group['forecast_date'].array)
+        target_dates = list(group['target_end_date'].array)
+        values = list(group['value'].array)
+        values = [float(value) for value in values]
+
+        # For now only inserting documents with point forecasts
+        model_dict = {'model': model_name, 
+                  'location': location, 
                   'target': targets,
                   #'type': types,
                   #'quantile': quantiles,
@@ -50,8 +49,7 @@ for file in files:
                   'target_end_date': target_dates,
                   'value': values}
 
-    x = mycol.insert_one(model_dict)
+        x = mycol.insert_one(model_dict)
 
-    #models_list.append(model_dict)
-
-#x = mycol.insert_many(models_list)
+    print(model_name)
+    
