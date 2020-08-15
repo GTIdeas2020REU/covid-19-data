@@ -35,7 +35,7 @@ def get_filenames(model):
                 df.to_csv(model + '.csv', mode='w', index=False)
             else:
                 other = pd.read_csv(model + '.csv')
-                dfs = pd.concat([df, other])
+                dfs = pd.concat([other, df])
                 dfs.to_csv(model + '.csv', mode='w', index=False)
 
     print(model)

@@ -1,4 +1,4 @@
 forecast_date,target,target_end_date,location,type,quantile,value
-2020-04-20,3 wk ahead cum death,2020-05-09,US,point,,64750.0
 2020-04-13,3 wk ahead cum death,2020-05-02,US,point,,47750.0
 2020-04-13,7 wk ahead cum death,2020-05-30,US,point,,73250.0
+2020-04-20,3 wk ahead cum death,2020-05-09,US,point,,64750.0
