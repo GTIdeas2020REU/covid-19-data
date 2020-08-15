@@ -1,3 +1,4 @@
+location,target,type,quantile,forecast_date,target_end_date,value
 17,1 wk ahead cum death,point,,2020-05-05,2020-05-16,4237.99
 17,1 wk ahead inc death,point,,2020-05-05,2020-05-16,741.89
 17,2 wk ahead cum death,point,,2020-05-05,2020-05-23,5028.58
@@ -8,6 +9,7 @@
 17,4 wk ahead inc death,point,,2020-05-05,2020-06-06,965.915
 17,5 wk ahead cum death,point,,2020-05-05,2020-06-13,7953.435
 17,5 wk ahead inc death,point,,2020-05-05,2020-06-13,1114.46
+location,target,type,quantile,forecast_date,target_end_date,value
 17,1 wk ahead cum death,point,,2020-05-11,2020-05-16,3707.58
 17,1 wk ahead inc death,point,,2020-05-11,2020-05-16,634.71
 17,2 wk ahead cum death,point,,2020-05-11,2020-05-23,4360.325

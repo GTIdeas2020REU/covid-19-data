@@ -1,21 +1,40 @@
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-04-18,2020-04-25,69299
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-04-19,2020-04-25,62164
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-04-20,2020-04-25,49766
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-04-25,2020-05-02,66187
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-04-27,2020-05-02,64604
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-05-02,2020-05-09,79421
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-05-03,2020-05-09,76646
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-05-04,2020-05-09,74220
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-05-09,2020-05-16,90423
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-05-10,2020-05-16,88149
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-05-11,2020-05-16,85545
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-05-16,2020-05-23,99609
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-05-17,2020-05-23,97377
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-05-18,2020-05-23,94610
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-05-24,2020-05-30,105463
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-05-25,2020-05-30,103022
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-05-31,2020-06-06,111374
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-06-01,2020-06-06,109157
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-06-07,2020-06-13,115412
 01,1 wk ahead cum death,point,,2020-06-07,2020-06-13,817
 02,1 wk ahead cum death,point,,2020-06-07,2020-06-13,10
@@ -73,6 +92,7 @@ US,1 wk ahead cum death,point,,2020-06-07,2020-06-13,115412
 54,1 wk ahead cum death,point,,2020-06-07,2020-06-13,102
 55,1 wk ahead cum death,point,,2020-06-07,2020-06-13,711
 56,1 wk ahead cum death,point,,2020-06-07,2020-06-13,17
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead inc case,point,,2020-07-05,2020-07-11,362289.82927809295
 01,1 wk ahead inc case,point,,2020-07-05,2020-07-11,8176.94828251028
 02,1 wk ahead inc case,point,,2020-07-05,2020-07-11,336.628467044896
@@ -185,6 +205,7 @@ US,1 wk ahead inc death,point,,2020-07-05,2020-07-11,3269.1416526043
 69,1 wk ahead inc death,point,,2020-07-05,2020-07-11,0.0
 72,1 wk ahead inc death,point,,2020-07-05,2020-07-11,3.4324188232421897
 78,1 wk ahead inc death,point,,2020-07-05,2020-07-11,4.44089209850063e-14
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead inc case,point,,2020-07-12,2020-07-18,460803.62241218204
 01,1 wk ahead inc case,point,,2020-07-12,2020-07-18,8829.1328125
 02,1 wk ahead inc case,point,,2020-07-12,2020-07-18,436.362645309186
@@ -297,6 +318,7 @@ US,1 wk ahead inc death,point,,2020-07-12,2020-07-18,6634.00320257911
 69,1 wk ahead inc death,point,,2020-07-12,2020-07-18,0.0
 72,1 wk ahead inc death,point,,2020-07-12,2020-07-18,10.0071258544922
 78,1 wk ahead inc death,point,,2020-07-12,2020-07-18,0.0
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead inc case,point,,2020-07-19,2020-07-25,503703.60016261204
 01,1 wk ahead inc case,point,,2020-07-19,2020-07-25,14044.2582537096
 02,1 wk ahead inc case,point,,2020-07-19,2020-07-25,395.59138882639394
@@ -465,6 +487,7 @@ US,1 wk ahead cum death,point,,2020-07-19,2020-07-25,146643.785389615
 54,1 wk ahead cum death,point,,2020-07-19,2020-07-25,105.26175807683599
 55,1 wk ahead cum death,point,,2020-07-19,2020-07-25,875.5429321117031
 56,1 wk ahead cum death,point,,2020-07-19,2020-07-25,26.6461440416012
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead inc case,point,,2020-07-26,2020-08-01,485117.65131348104
 01,1 wk ahead inc case,point,,2020-07-26,2020-08-01,14134.080326976498
 02,1 wk ahead inc case,point,,2020-07-26,2020-08-01,523.912353515625
@@ -633,6 +656,7 @@ US,1 wk ahead cum death,point,,2020-07-26,2020-08-01,154411.23101155699
 54,1 wk ahead cum death,point,,2020-07-26,2020-08-01,106.552230834961
 55,1 wk ahead cum death,point,,2020-07-26,2020-08-01,934.8115234375
 56,1 wk ahead cum death,point,,2020-07-26,2020-08-01,25.9667186737061
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead inc case,point,,2020-08-02,2020-08-08,443586.37659267103
 01,1 wk ahead inc case,point,,2020-08-02,2020-08-08,12246.7890625
 02,1 wk ahead inc case,point,,2020-08-02,2020-08-08,828.9896265646339
@@ -801,6 +825,7 @@ US,1 wk ahead cum death,point,,2020-08-02,2020-08-08,163534.156661244
 54,1 wk ahead cum death,point,,2020-08-02,2020-08-08,128.902106862914
 55,1 wk ahead cum death,point,,2020-08-02,2020-08-08,1025.1031405522099
 56,1 wk ahead cum death,point,,2020-08-02,2020-08-08,26.658998489379897
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead inc case,point,,2020-08-09,2020-08-15,382916.819319142
 01,1 wk ahead inc case,point,,2020-08-09,2020-08-15,11635.3515625
 02,1 wk ahead inc case,point,,2020-08-09,2020-08-15,336.617082094141

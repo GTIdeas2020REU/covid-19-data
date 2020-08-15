@@ -30,7 +30,7 @@ def get_filenames(model):
 
             df = pd.read_csv(raw_url)
             df = df.loc[df['type'] == 'point']
-            df.to_csv(model + '.csv', mode='a', header=False, index=False)
+            df.to_csv(model + '.csv', mode='a', index=False)
 
     print(model)
     

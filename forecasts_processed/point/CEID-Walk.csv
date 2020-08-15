@@ -1,3 +1,4 @@
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-08-09,1 wk ahead inc death,2020-08-15,01,point,,157.679
 2020-08-09,1 wk ahead cum death,2020-08-15,01,point,,1912.6789999999999
 2020-08-09,1 wk ahead inc case,2020-08-15,01,point,,10429.088

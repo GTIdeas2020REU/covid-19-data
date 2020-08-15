@@ -1,3 +1,4 @@
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-07-20,1 wk ahead inc case,2020-07-25,1,point,,17678.3
 2020-07-20,2 wk ahead inc case,2020-08-01,1,point,,21382.6
 2020-07-20,3 wk ahead inc case,2020-08-08,1,point,,25709.1
@@ -508,6 +509,7 @@
 2020-07-20,3 wk ahead inc death,2020-08-08,56,point,,1.5
 2020-07-20,4 wk ahead inc death,2020-08-15,56,point,,1.4
 2020-07-20,5 wk ahead inc death,2020-08-22,56,point,,1.4
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-07-26,1 wk ahead inc case,2020-08-01,01,point,,18199.8
 2020-07-26,2 wk ahead inc case,2020-08-08,01,point,,22134.8
 2020-07-26,3 wk ahead inc case,2020-08-15,01,point,,26753.4
@@ -2848,6 +2850,7 @@
 2020-07-26,28 day ahead inc hosp,2020-08-23,US,point,,10330.2
 2020-07-26,29 day ahead inc hosp,2020-08-24,US,point,,10627.2
 2020-07-26,30 day ahead inc hosp,2020-08-25,US,point,,10935.8
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-08-02,1 wk ahead inc case,2020-08-08,01,point,,19668.2
 2020-08-02,2 wk ahead inc case,2020-08-15,01,point,,23507.2
 2020-08-02,3 wk ahead inc case,2020-08-22,01,point,,27912.2
@@ -5188,6 +5191,7 @@
 2020-08-02,28 day ahead inc hosp,2020-08-30,US,point,,7804.6
 2020-08-02,29 day ahead inc hosp,2020-08-31,US,point,,7920.0
 2020-08-02,30 day ahead inc hosp,2020-09-01,US,point,,8038.1
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-08-09,1 wk ahead inc case,2020-08-15,01,point,,11777.5
 2020-08-09,2 wk ahead inc case,2020-08-22,01,point,,11629.7
 2020-08-09,3 wk ahead inc case,2020-08-29,01,point,,11454.2

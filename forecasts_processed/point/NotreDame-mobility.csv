@@ -1,3 +1,4 @@
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-06-22,2020-06-27,116113.46853146852
 US,2 wk ahead cum death,point,,2020-06-22,2020-07-04,118744.30410330412
 US,3 wk ahead cum death,point,,2020-06-22,2020-07-11,121466.69637769635
@@ -646,6 +647,7 @@ US,6 wk ahead inc death,point,,2020-06-22,2020-08-01,4838.157472157473
 56,4 wk ahead inc death,point,,2020-06-22,2020-07-18,1.379525236668094
 56,5 wk ahead inc death,point,,2020-06-22,2020-07-25,1.9616573902288188
 56,6 wk ahead inc death,point,,2020-06-22,2020-08-01,3.4252414252414254
+location,target,type,quantile,forecast_date,target_end_date,value
 US,1 wk ahead cum death,point,,2020-06-29,2020-07-04,129430.86968586972
 US,2 wk ahead cum death,point,,2020-06-29,2020-07-11,133905.2932992933
 US,3 wk ahead cum death,point,,2020-06-29,2020-07-18,139079.3791023791
@@ -1306,6 +1308,7 @@ US,6 wk ahead inc death,point,,2020-06-29,2020-08-08,9976.156732156733
 56,4 wk ahead inc death,point,,2020-06-29,2020-07-25,5.530469530469531
 56,5 wk ahead inc death,point,,2020-06-29,2020-08-01,7.685314685314685
 56,6 wk ahead inc death,point,,2020-06-29,2020-08-08,10.226249940535654
+forecast_date,target,location,target_end_date,type,quantile,value
 2020-07-06,1 wk ahead cum death,US,2020-07-11,point,,132666.8932918933
 2020-07-06,2 wk ahead cum death,US,2020-07-18,point,,135372.31845931846
 2020-07-06,3 wk ahead cum death,US,2020-07-25,point,,137816.09797609798
@@ -1966,6 +1969,7 @@ US,6 wk ahead inc death,point,,2020-06-29,2020-08-08,9976.156732156733
 2020-07-06,4 wk ahead inc death,56,2020-08-01,point,,3.5197659483373767
 2020-07-06,5 wk ahead inc death,56,2020-08-08,point,,4.758003900861044
 2020-07-06,6 wk ahead inc death,56,2020-08-15,point,,6.304885590599875
+forecast_date,target,location,target_end_date,type,quantile,value
 2020-07-13,1 wk ahead cum death,US,2020-07-18,point,,138449.11803011806
 2020-07-13,2 wk ahead cum death,US,2020-07-25,point,,142331.67014467015
 2020-07-13,3 wk ahead cum death,US,2020-08-01,point,,146236.07451807449
@@ -2626,6 +2630,7 @@ US,6 wk ahead inc death,point,,2020-06-29,2020-08-08,9976.156732156733
 2020-07-13,4 wk ahead inc death,56,2020-08-08,point,,4.642500356786071
 2020-07-13,5 wk ahead inc death,56,2020-08-15,point,,6.2880452880452875
 2020-07-13,6 wk ahead inc death,56,2020-08-22,point,,8.29137529137529
+forecast_date,target,location,target_end_date,type,quantile,value
 2020-07-20,1 wk ahead cum death,US,2020-07-25,point,,143918.4751174751
 2020-07-20,2 wk ahead cum death,US,2020-08-01,point,,148643.31842231847
 2020-07-20,3 wk ahead cum death,US,2020-08-08,point,,153640.9841269841
@@ -3286,6 +3291,7 @@ US,6 wk ahead inc death,point,,2020-06-29,2020-08-08,9976.156732156733
 2020-07-20,4 wk ahead inc death,56,2020-08-15,point,,10.883354740497598
 2020-07-20,5 wk ahead inc death,56,2020-08-22,point,,14.16245659102802
 2020-07-20,6 wk ahead inc death,56,2020-08-29,point,,17.583559297845017
+forecast_date,target,location,target_end_date,type,quantile,value
 2020-07-27,1 wk ahead cum death,US,2020-08-01,point,,149637.65726865723
 2020-07-27,2 wk ahead cum death,US,2020-08-08,point,,154925.3589003589
 2020-07-27,3 wk ahead cum death,US,2020-08-15,point,,160353.1600991601
@@ -3946,6 +3952,7 @@ US,6 wk ahead inc death,point,,2020-06-29,2020-08-08,9976.156732156733
 2020-07-27,4 wk ahead inc death,56,2020-08-22,point,,11.576851719708865
 2020-07-27,5 wk ahead inc death,56,2020-08-29,point,,14.662147376433088
 2020-07-27,6 wk ahead inc death,56,2020-09-05,point,,18.00085628657057
+forecast_date,target,location,target_end_date,type,quantile,value
 2020-08-03,1 wk ahead cum death,US,2020-08-08,point,,154925.43896843898
 2020-08-03,2 wk ahead cum death,US,2020-08-15,point,,160353.7831057831
 2020-08-03,3 wk ahead cum death,US,2020-08-22,point,,165979.90587190588
@@ -4606,6 +4613,7 @@ US,6 wk ahead inc death,point,,2020-06-29,2020-08-08,9976.156732156733
 2020-08-03,4 wk ahead inc death,56,2020-08-29,point,,14.674706246134818
 2020-08-03,5 wk ahead inc death,56,2020-09-05,point,,17.956567242281533
 2020-08-03,6 wk ahead inc death,56,2020-09-12,point,,21.6852195423624
+forecast_date,target,location,target_end_date,type,quantile,value
 2020-08-10,1 wk ahead cum death,US,2020-08-15,point,,167832.5801975802
 2020-08-10,2 wk ahead cum death,US,2020-08-22,point,,174848.19824619824
 2020-08-10,3 wk ahead cum death,US,2020-08-29,point,,181870.89395789395

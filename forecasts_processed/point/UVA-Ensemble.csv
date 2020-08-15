@@ -1,3 +1,4 @@
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-07-20,1 wk ahead inc case,2020-07-25,51001,point,,19.92283808326522
 2020-07-20,2 wk ahead inc case,2020-08-01,51001,point,,20.65948316680637
 2020-07-20,3 wk ahead inc case,2020-08-08,51001,point,,3.523789321009447
@@ -530,6 +531,7 @@
 2020-07-20,2 wk ahead inc case,2020-08-01,51840,point,,21.272898010404692
 2020-07-20,3 wk ahead inc case,2020-08-08,51840,point,,14.620166569335272
 2020-07-20,4 wk ahead inc case,2020-08-15,51840,point,,12.543997089197196
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-07-27,1 wk ahead inc case,2020-08-01,51001,point,,13.725345055292781
 2020-07-27,2 wk ahead inc case,2020-08-08,51001,point,,7.498692870623929
 2020-07-27,3 wk ahead inc case,2020-08-15,51001,point,,3.655521049334256
@@ -1062,6 +1064,7 @@
 2020-07-27,2 wk ahead inc case,2020-08-08,51840,point,,17.78584729623999
 2020-07-27,3 wk ahead inc case,2020-08-15,51840,point,,10.685778146446708
 2020-07-27,4 wk ahead inc case,2020-08-22,51840,point,,13.137915542557574
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-08-03,1 wk ahead inc case,2020-08-08,51001,point,,27.380562702690433
 2020-08-03,2 wk ahead inc case,2020-08-15,51001,point,,22.845036121654548
 2020-08-03,3 wk ahead inc case,2020-08-22,51001,point,,26.337906579285463
@@ -1594,6 +1597,7 @@
 2020-08-03,2 wk ahead inc case,2020-08-15,51840,point,,14.131237054352805
 2020-08-03,3 wk ahead inc case,2020-08-22,51840,point,,14.952069788102026
 2020-08-03,4 wk ahead inc case,2020-08-29,51840,point,,18.41622577502053
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-08-10,1 wk ahead inc case,2020-08-15,51001,point,,23.375653554515342
 2020-08-10,2 wk ahead inc case,2020-08-22,51001,point,,19.68476088801292
 2020-08-10,3 wk ahead inc case,2020-08-29,51001,point,,16.48598724371082

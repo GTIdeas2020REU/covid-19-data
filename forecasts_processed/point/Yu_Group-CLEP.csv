@@ -1,3 +1,4 @@
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-08-08,1 wk ahead inc case,2020-08-15,1001,point,,253.47509272603955
 2020-08-08,1 wk ahead inc case,2020-08-15,1003,point,,636.8998954821946
 2020-08-08,1 wk ahead inc case,2020-08-15,1005,point,,60.831992725348975

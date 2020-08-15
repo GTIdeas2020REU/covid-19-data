@@ -1,3 +1,4 @@
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-07-05,1 wk ahead cum death,2020-07-11,US,point,,134759
 2020-07-05,2 wk ahead cum death,2020-07-18,US,point,,140166
 2020-07-05,3 wk ahead cum death,2020-07-25,US,point,,149125
@@ -14,6 +15,7 @@
 2020-07-05,6 wk ahead inc case,2020-08-15,US,point,,534552
 2020-07-05,7 wk ahead inc case,2020-08-22,US,point,,522264
 2020-07-05,8 wk ahead inc case,2020-08-29,US,point,,510254
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-07-12,1 wk ahead cum death,2020-07-18,US,point,,140327
 2020-07-12,2 wk ahead cum death,2020-07-25,US,point,,148716
 2020-07-12,3 wk ahead cum death,2020-08-01,US,point,,158943
@@ -30,6 +32,7 @@
 2020-07-12,6 wk ahead inc case,2020-08-22,US,point,,383844
 2020-07-12,7 wk ahead inc case,2020-08-29,US,point,,369332
 2020-07-12,8 wk ahead inc case,2020-09-05,US,point,,355369
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-07-19,1 wk ahead cum death,2020-07-25,US,point,,146757
 2020-07-19,2 wk ahead cum death,2020-08-01,US,point,,153720
 2020-07-19,3 wk ahead cum death,2020-08-08,US,point,,160351
@@ -54,6 +57,7 @@
 2020-07-19,6 wk ahead inc case,2020-08-29,US,point,,304579
 2020-07-19,7 wk ahead inc case,2020-09-05,US,point,,277116
 2020-07-19,8 wk ahead inc case,2020-09-12,US,point,,252130
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-07-26,1 wk ahead cum death,2020-08-01,US,point,,153196
 2020-07-26,2 wk ahead cum death,2020-08-08,US,point,,160012
 2020-07-26,3 wk ahead cum death,2020-08-15,US,point,,166005
@@ -78,6 +82,7 @@
 2020-07-26,6 wk ahead inc case,2020-09-05,US,point,,274470
 2020-07-26,7 wk ahead inc case,2020-09-12,US,point,,250453
 2020-07-26,8 wk ahead inc case,2020-09-19,US,point,,228538
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-08-02,1 wk ahead cum death,2020-08-08,US,point,,161353
 2020-08-02,2 wk ahead cum death,2020-08-15,US,point,,168237
 2020-08-02,3 wk ahead cum death,2020-08-22,US,point,,174193
@@ -102,6 +107,7 @@
 2020-08-02,6 wk ahead inc case,2020-09-12,US,point,,168924
 2020-08-02,7 wk ahead inc case,2020-09-19,US,point,,142925
 2020-08-02,8 wk ahead inc case,2020-09-26,US,point,,120928
+forecast_date,target,target_end_date,location,type,quantile,value
 2020-08-09,1 wk ahead cum death,2020-08-15,US,point,,168730
 2020-08-09,2 wk ahead cum death,2020-08-22,US,point,,174723
 2020-08-09,3 wk ahead cum death,2020-08-29,US,point,,179774

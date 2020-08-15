@@ -1,3 +1,4 @@
+location,target,type,quantile,forecast_date,target_end_date,value
 24001,1 wk ahead inc case,point,,2020-07-05,2020-07-11,9.43
 24001,2 wk ahead inc case,point,,2020-07-05,2020-07-18,10.63
 24001,3 wk ahead inc case,point,,2020-07-05,2020-07-25,10.24
@@ -190,6 +191,7 @@
 24510,6 wk ahead inc case,point,,2020-07-05,2020-08-15,855.53
 24510,7 wk ahead inc case,point,,2020-07-05,2020-08-22,852.72
 24510,8 wk ahead inc case,point,,2020-07-05,2020-08-29,845.28
+location,target,type,quantile,forecast_date,target_end_date,value
 1001,1 wk ahead inc case,point,,2020-07-12,2020-07-18,132.18
 1001,2 wk ahead inc case,point,,2020-07-12,2020-07-25,176.0
 1001,3 wk ahead inc case,point,,2020-07-12,2020-08-01,199.9
@@ -8046,6 +8048,7 @@
 56025,6 wk ahead inc case,point,,2020-07-12,2020-08-22,12.33
 56025,7 wk ahead inc case,point,,2020-07-12,2020-08-29,12.79
 56025,8 wk ahead inc case,point,,2020-07-12,2020-09-05,13.27
+location,target,type,quantile,forecast_date,target_end_date,value
 1001,1 wk ahead inc case,point,,2020-07-19,2020-07-25,127.93
 1001,2 wk ahead inc case,point,,2020-07-19,2020-08-01,138.03
 1001,3 wk ahead inc case,point,,2020-07-19,2020-08-08,146.3
@@ -15902,6 +15905,7 @@
 56025,6 wk ahead inc case,point,,2020-07-19,2020-08-29,24.25
 56025,7 wk ahead inc case,point,,2020-07-19,2020-09-05,25.98
 56025,8 wk ahead inc case,point,,2020-07-19,2020-09-12,27.81
+location,target,type,quantile,forecast_date,target_end_date,value
 1001,1 wk ahead inc case,point,,2020-07-26,2020-08-01,119.79
 1001,2 wk ahead inc case,point,,2020-07-26,2020-08-08,116.7
 1001,3 wk ahead inc case,point,,2020-07-26,2020-08-15,110.38
@@ -23758,6 +23762,7 @@
 56025,6 wk ahead inc case,point,,2020-07-26,2020-09-05,24.5
 56025,7 wk ahead inc case,point,,2020-07-26,2020-09-12,26.1
 56025,8 wk ahead inc case,point,,2020-07-26,2020-09-19,27.77
+location,target,type,quantile,forecast_date,target_end_date,value
 1001,1 wk ahead inc case,point,,2020-08-02,2020-08-08,192.04
 1001,2 wk ahead inc case,point,,2020-08-02,2020-08-15,214.78
 1001,3 wk ahead inc case,point,,2020-08-02,2020-08-22,237.34
@@ -31582,6 +31587,7 @@
 56025,6 wk ahead inc case,point,,2020-08-02,2020-09-12,38.18
 56025,7 wk ahead inc case,point,,2020-08-02,2020-09-19,41.71
 56025,8 wk ahead inc case,point,,2020-08-02,2020-09-26,45.5
+location,target,type,quantile,forecast_date,target_end_date,value
 1001,1 wk ahead inc case,point,,2020-08-09,2020-08-15,175.92
 1001,2 wk ahead inc case,point,,2020-08-09,2020-08-22,184.07
 1001,3 wk ahead inc case,point,,2020-08-09,2020-08-29,188.82
