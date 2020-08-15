@@ -2,6 +2,7 @@ import github
 import pandas as pd
 from io import StringIO
 import time
+import os
 
 from info import token
 
@@ -30,7 +31,12 @@ def get_filenames(model):
 
             df = pd.read_csv(raw_url)
             df = df.loc[df['type'] == 'point']
-            df.to_csv(model + '.csv', mode='a', index=False)
+            if not os.path.exists(model + '.csv'):
+                df.to_csv(model + '.csv', mode='w', index=False)
+            else:
+                other = pd.read_csv(model + '.csv')
+                dfs = pd.concat([df, other])
+                dfs.to_csv(model + '.csv', mode='w', index=False)
 
     print(model)
     
