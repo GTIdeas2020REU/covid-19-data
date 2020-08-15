@@ -1,8 +1,6 @@
-,forecast_date,target,target_end_date,location,location_name,type,quantile,value
-0,2020-05-08,1 day ahead inc death,2020-05-09,25,Massachusetts,point,,107
-24,2020-05-08,1 wk ahead inc death,2020-05-16,25,Massachusetts,point,,653
-48,2020-05-08,2 wk ahead inc death,2020-05-23,25,Massachusetts,point,,544
-72,2020-05-08,3 wk ahead inc death,2020-05-30,25,Massachusetts,point,,470
-96,2020-05-08,4 wk ahead inc death,2020-06-06,25,Massachusetts,point,,399
-120,2020-05-08,5 wk ahead inc death,2020-06-13,25,Massachusetts,point,,307
-144,2020-05-08,6 wk ahead inc death,2020-06-20,25,Massachusetts,point,,260
+25,1 wk ahead inc death,point,,2020-05-08,2020-05-16,653
+25,2 wk ahead inc death,point,,2020-05-08,2020-05-23,544
+25,3 wk ahead inc death,point,,2020-05-08,2020-05-30,470
+25,4 wk ahead inc death,point,,2020-05-08,2020-06-06,399
+25,5 wk ahead inc death,point,,2020-05-08,2020-06-13,307
+25,6 wk ahead inc death,point,,2020-05-08,2020-06-20,260

@@ -1,3 +1,6 @@
 venv
 scripts/info.py
 scripts/__pycache__
+forecasts_processed/point/info.py
+forecasts_processed/point/__pycache__
+
