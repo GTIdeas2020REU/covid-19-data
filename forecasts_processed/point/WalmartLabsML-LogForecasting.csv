@@ -1,0 +1,9 @@
+forecast_date,target,target_end_date,location,type,quantile,value
+2020-08-23,1 wk ahead cum death,2020-08-29,US,point,,181493
+2020-08-23,2 wk ahead cum death,2020-09-05,US,point,,186222
+2020-08-23,3 wk ahead cum death,2020-09-12,US,point,,190772
+2020-08-23,4 wk ahead cum death,2020-09-19,US,point,,195135
+2020-08-23,5 wk ahead cum death,2020-09-26,US,point,,199308
+2020-08-23,6 wk ahead cum death,2020-10-03,US,point,,203286
+2020-08-23,7 wk ahead cum death,2020-10-10,US,point,,207070
+2020-08-23,8 wk ahead cum death,2020-10-17,US,point,,210658
