@@ -23,7 +23,7 @@ US,2 wk ahead inc case,point,,2020-07-10,2020-07-25,515804.6
 US,3 wk ahead cum death,point,,2020-07-10,2020-08-01,158618.2600000001
 US,3 wk ahead inc case,point,,2020-07-10,2020-08-01,581307.4
 US,4 wk ahead cum death,point,,2020-07-10,2020-08-08,168934.3520000001
-US,5 wk ahead cum death,point,,2020-07-10,2020-08-15,180560.5000000001
+US,5 wk ahead cum death,point,,2020-07-10,2020-08-15,180560.50000000012
 US,1 wk ahead cum death,point,,2020-07-11,2020-07-18,141732.82000000007
 US,2 wk ahead cum death,point,,2020-07-11,2020-07-25,149581.48000000007
 US,3 wk ahead cum death,point,,2020-07-11,2020-08-01,158892.8580000001
@@ -95,7 +95,7 @@ US,4 wk ahead cum death,point,,2020-08-03,2020-08-29,186656.1680453511
 US,5 wk ahead cum death,point,,2020-08-03,2020-09-05,194320.3376799332
 US,6 wk ahead cum death,point,,2020-08-03,2020-09-12,201570.51024134425
 US,1 wk ahead inc death,point,,2020-08-03,2020-08-08,7714.8587152646805
-US,2 wk ahead inc death,point,,2020-08-03,2020-08-15,8169.6451348034925
+US,2 wk ahead inc death,point,,2020-08-03,2020-08-15,8169.645134803492
 US,3 wk ahead inc death,point,,2020-08-03,2020-08-22,8298.9306368978
 US,4 wk ahead inc death,point,,2020-08-03,2020-08-29,8025.733558385109
 US,5 wk ahead inc death,point,,2020-08-03,2020-09-05,7664.1696345821265
@@ -142,7 +142,7 @@ US,5 wk ahead inc case,point,,2020-08-17,2020-09-19,381796.1
 US,1 wk ahead cum death,point,,2020-08-23,2020-08-29,182903.8963061021
 US,2 wk ahead cum death,point,,2020-08-23,2020-09-05,188802.9162276433
 US,3 wk ahead cum death,point,,2020-08-23,2020-09-12,194190.60259920105
-US,4 wk ahead cum death,point,,2020-08-23,2020-09-19,199277.32042910196
+US,4 wk ahead cum death,point,,2020-08-23,2020-09-19,199277.320429102
 US,5 wk ahead cum death,point,,2020-08-23,2020-09-26,204221.84866753672
 US,6 wk ahead cum death,point,,2020-08-23,2020-10-03,209065.06791945227
 US,1 wk ahead inc death,point,,2020-08-23,2020-08-29,6550.896306102106
@@ -156,3 +156,20 @@ US,2 wk ahead inc case,point,,2020-08-23,2020-09-05,311539.2000000001
 US,3 wk ahead inc case,point,,2020-08-23,2020-09-12,323490.09999999986
 US,4 wk ahead inc case,point,,2020-08-23,2020-09-19,327990.2000000001
 US,5 wk ahead inc case,point,,2020-08-23,2020-09-26,337468.9
+US,1 wk ahead cum death,point,,2020-08-30,2020-09-05,188653.43019908672
+US,2 wk ahead cum death,point,,2020-08-30,2020-09-12,193956.59753865132
+US,3 wk ahead cum death,point,,2020-08-30,2020-09-19,198766.40929484094
+US,4 wk ahead cum death,point,,2020-08-30,2020-09-26,203075.8180688056
+US,5 wk ahead cum death,point,,2020-08-30,2020-10-03,206933.40572553774
+US,6 wk ahead cum death,point,,2020-08-30,2020-10-10,210400.45719065986
+US,1 wk ahead inc death,point,,2020-08-30,2020-09-05,5892.430199086695
+US,2 wk ahead inc death,point,,2020-08-30,2020-09-12,5303.16733956465
+US,3 wk ahead inc death,point,,2020-08-30,2020-09-19,4809.811756189622
+US,4 wk ahead inc death,point,,2020-08-30,2020-09-26,4309.408773964591
+US,5 wk ahead inc death,point,,2020-08-30,2020-10-03,3857.5876567321834
+US,6 wk ahead inc death,point,,2020-08-30,2020-10-10,3467.0514651221165
+US,1 wk ahead inc case,point,,2020-08-30,2020-09-05,264134.9
+US,2 wk ahead inc case,point,,2020-08-30,2020-09-12,242398.1
+US,3 wk ahead inc case,point,,2020-08-30,2020-09-19,222017.1
+US,4 wk ahead inc case,point,,2020-08-30,2020-09-26,206291.7
+US,5 wk ahead inc case,point,,2020-08-30,2020-10-03,195081.2
