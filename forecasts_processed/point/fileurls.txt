@@ -2056,3 +2056,13 @@ https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-proc
 https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/UVA-Ensemble/2020-12-21-UVA-Ensemble.csv
 https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/Wadhwani_AI-BayesOpt/2020-12-21-Wadhwani_AI-BayesOpt.csv
 https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/WalmartLabsML-LogForecasting/2020-12-20-WalmartLabsML-LogForecasting.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/AIpert-pwllnod/2020-12-21-AIpert-pwllnod.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/CU-nochange/2020-12-24-CU-nochange.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/CU-scenario_high/2020-12-24-CU-scenario_high.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/CU-scenario_low/2020-12-24-CU-scenario_low.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/CU-scenario_mid/2020-12-24-CU-scenario_mid.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/CU-select/2020-12-24-CU-select.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/FAIR-NRAR/2020-12-22-FAIR-NRAR.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/FAIR-NRAR/2020-12-23-FAIR-NRAR.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/FAIR-NRAR/2020-12-24-FAIR-NRAR.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/LANL-GrowthRate/2020-12-24-LANL-GrowthRate.csv
