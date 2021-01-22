@@ -2311,3 +2311,7 @@ https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-proc
 https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/epiforecasts-ensemble1/2021-01-04-epiforecasts-ensemble1.csv
 https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/epiforecasts-ensemble1/2021-01-11-epiforecasts-ensemble1.csv
 https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/epiforecasts-ensemble1/2021-01-18-epiforecasts-ensemble1.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/DDS-NBDS/2021-01-18-DDS-NBDS.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/FAIR-NRAR/2021-01-19-FAIR-NRAR.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/FAIR-NRAR/2021-01-21-FAIR-NRAR.csv
+https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/master/data-processed/LANL-GrowthRate/2021-01-21-LANL-GrowthRate.csv
