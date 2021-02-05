@@ -1,0 +1,25 @@
+forecast_date,target,target_end_date,quantile,type,location,value
+2021-01-25,1 wk ahead inc case,2021-01-30,,point,US,1099454.6855688062
+2021-01-25,2 wk ahead inc case,2021-02-06,,point,US,1078706.0749296742
+2021-01-25,3 wk ahead inc case,2021-02-13,,point,US,1099916.63697376
+2021-01-25,4 wk ahead inc case,2021-02-20,,point,US,1127258.4417586396
+2021-01-25,5 wk ahead inc case,2021-02-27,,point,US,1258978.6361705824
+2021-01-25,6 wk ahead inc case,2021-03-06,,point,US,1235957.6195022364
+2021-01-25,1 wk ahead cum death,2021-01-30,,point,US,437102.8029323968
+2021-01-25,2 wk ahead cum death,2021-02-06,,point,US,455844.7552422345
+2021-01-25,3 wk ahead cum death,2021-02-13,,point,US,474471.9790330496
+2021-01-25,4 wk ahead cum death,2021-02-20,,point,US,491429.27201604703
+2021-01-25,5 wk ahead cum death,2021-02-27,,point,US,511206.09477609186
+2021-01-25,6 wk ahead cum death,2021-03-06,,point,US,531864.3124022625
+2021-02-01,1 wk ahead inc case,2021-02-06,,point,US,988044.8260867646
+2021-02-01,2 wk ahead inc case,2021-02-13,,point,US,952651.3966826464
+2021-02-01,3 wk ahead inc case,2021-02-20,,point,US,891372.9469014718
+2021-02-01,4 wk ahead inc case,2021-02-27,,point,US,915331.581702697
+2021-02-01,5 wk ahead inc case,2021-03-06,,point,US,777671.5
+2021-02-01,6 wk ahead inc case,2021-03-13,,point,US,793297.5
+2021-02-01,1 wk ahead cum death,2021-02-06,,point,US,465281.92322492274
+2021-02-01,2 wk ahead cum death,2021-02-13,,point,US,484803.9568472274
+2021-02-01,3 wk ahead cum death,2021-02-20,,point,US,502786.53928372025
+2021-02-01,4 wk ahead cum death,2021-02-27,,point,US,519939.0065788992
+2021-02-01,5 wk ahead cum death,2021-03-06,,point,US,522555.83906145935
+2021-02-01,6 wk ahead cum death,2021-03-13,,point,US,530318.5512859266
